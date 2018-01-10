@@ -14,6 +14,7 @@ const populate = () => {
     return Promise.all(promises);
   };
 
+
   return populatePeople()
     .then(() => {
       console.log('done');

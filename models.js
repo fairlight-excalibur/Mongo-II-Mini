@@ -20,6 +20,6 @@ const PersonSchema = ({
     gender: String,
     location: String,
     dateOfBirth: Date,
-})
+});
 
 module.exports = mongoose.model('Person', PersonSchema);
